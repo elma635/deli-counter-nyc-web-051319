@@ -25,10 +25,8 @@ else
 
   katz_deli.each_with_index do | value, index |
    message += " #{index.to_i+1}. #{value}"
+   binding.pry
     end
     puts "#{message}"
   end
 end
-
-
-binding.pry
